@@ -5,10 +5,6 @@
   <DataSets />
   <Reports>
     <ProjectItem>
-      <Name>AcsTraining.rdl</Name>
-      <FullPath>AcsTraining.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>AcstraingInfo.rdl</Name>
       <FullPath>AcstraingInfo.rdl</FullPath>
     </ProjectItem>
