@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ACSTraingInfomation", "ACSTraingInfomation\ACSTraingInfomation.rptproj", "{15AB3564-0DED-46E2-A8D4-59322706F789}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Source", "SQL Source", "{4DE7317A-CE41-46A8-942A-8F821B2176B4}"
+	ProjectSection(SolutionItems) = preProject
+		V:\work\projects\ACC_TrainingCourse\Reports\TrainingInfo_For_SSRS_v1.sql = V:\work\projects\ACC_TrainingCourse\Reports\TrainingInfo_For_SSRS_v1.sql
+		V:\work\projects\ACC_TrainingCourse\Reports\TrainingInfo_For_SSRS_v2.sql = V:\work\projects\ACC_TrainingCourse\Reports\TrainingInfo_For_SSRS_v2.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default
