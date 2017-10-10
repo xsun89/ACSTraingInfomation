@@ -90,6 +90,20 @@
         </Field>
       </Fields>
     </DataSet>
+    <DataSet Name="DataSet3">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <CommandText>SELECT l.[Calendar Year]
+      --,[Fiscal Year]
+  FROM [NewExR].[UBC_Calendar and Fiscal Year Lists] l
+
+where 1=1
+--	and l.[Calendar Year]&gt;= 2004
+--	and l.[Calendar Year] &lt;= YEAR(GetDate()) + 10
+
+order by l.[Calendar Year] desc</CommandText>
+      </Query>
+    </DataSet>
   </DataSets>
   <ReportSections>
     <ReportSection>
@@ -686,12 +700,6 @@
   <ReportParameters>
     <ReportParameter Name="CourseName">
       <DataType>String</DataType>
-      <DefaultValue>
-        <DataSetReference>
-          <DataSetName>DataSet2</DataSetName>
-          <ValueField>Course_Name</ValueField>
-        </DataSetReference>
-      </DefaultValue>
       <Prompt>Course Name</Prompt>
       <ValidValues>
         <DataSetReference>
